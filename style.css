@@ -18,12 +18,13 @@ ul {
       }
 #logo {
     display: block;
-    margin-left: auto;
-    margin-right:auto;
-    padding-top: 200px;
+    margin: 0 auto;
+    height: auto;
     justify-content: center;
     }
- 
+    main {
+        padding: 159px 0px 47px 0px;
+    }
     #search-form{
         display: inline;
         border:none;
@@ -51,11 +52,11 @@ ul {
     background-color:#4285f4;
     border-color: #4285f4;
     color: white;
-    padding-left: 6px;
-    border-radius:2px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display:inline;
+    font-size:13px;
+    font-weight: bold;
+    padding: 0 12px;
+    border-radius: 2px;
+    height: 30px;
 
 
 }
@@ -87,6 +88,7 @@ footer{
 display:flex;
 justify-content: center;
 padding: 4px;
+
 }
 
 .button-search{
@@ -94,6 +96,9 @@ padding: 4px;
     border: 1px solid #c6c6c6;
     border-radius: 4px;
     padding: 4px 16px;
+    margin: 9px;
+    font-family:arial, sans-serif;
+    
     
 
     
@@ -104,6 +109,8 @@ padding: 4px;
     border: 1px solid #c6c6c6;
     border-radius: 4px;
     padding: 4px 16px;
+    margin: 9px;
+    font-family:arial, sans-serif;
 }
 
 #magnify {
@@ -126,4 +133,19 @@ margin: 0px 10px;
     width: 24px;
     float: right;
     margin: 5px 10px;
+}
+
+#modal {
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    opacity: .55;
+    vertical-align: middle;
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+a{
+font-family:arial, sans-serif;
+font-size: 15px;
 }
