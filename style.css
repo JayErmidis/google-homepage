@@ -25,12 +25,8 @@ ul {
     }
  
     #search-form{
-        display: block;
-    margin-left: auto;
-    margin-right:auto;
-    padding-right: 300px;
-    margin-top: 20px;
-    border:none;
+        display: inline;
+        border:none;
     }
 
     .inputwrapper {
@@ -110,3 +106,24 @@ padding: 4px;
     padding: 4px 16px;
 }
 
+#magnify {
+    background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+opacity: .30;
+vertical-align: middle;
+background-position: -250px -28px;
+background-size: 528px 68px;
+display: inline-block;
+height: 34px;
+width: 34px;
+margin: 0px 10px;
+}
+
+
+#voice {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-size: 24px;
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin: 5px 10px;
+}
