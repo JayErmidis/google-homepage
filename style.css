@@ -1,15 +1,23 @@
-body{
-    
-}
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    padding-top: 20px;
+    font-size: 13px;
+  }
+  
+  li {
+    display:inline;
+    padding-top:20px;
+  }
 #logo {
     display: block;
     margin-left: auto;
     margin-right:auto;
     padding-top: 200px;
     }
-
-
+ 
     #search-form{
         display: block;
     margin-left: auto;
@@ -17,6 +25,27 @@ body{
     padding-right: 300px;
     padding-top: 25px;
     margin-top: 20px;
-
-
     }
+
+      .right-nav{
+          float: right;
+          padding-left:6px;
+          padding-right: 6px;
+      }
+
+      .left-nav{
+          padding-left:6px;
+          padding-right:6px;
+      }
+#sign-in-button{
+    background-color:#4285f4;
+    border-color: #4285f4;
+    color: white;
+    padding-left: 6px;
+    border-radius:2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display:inline;
+
+
+}
