@@ -1,0 +1,22 @@
+body{
+    
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 200px;
+    }
+
+
+    #search-form{
+        display: block;
+    margin-left: auto;
+    margin-right:auto;
+    padding-right: 300px;
+    padding-top: 25px;
+    margin-top: 20px;
+
+
+    }
